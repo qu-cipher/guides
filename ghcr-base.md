@@ -1,5 +1,3 @@
----
-
 ## 🛠️ Step 1: Create a Personal Access Token (PAT)
 
 1. **Navigate to GitHub Settings**:
@@ -24,7 +22,6 @@
    * Click **"Generate token"**.
    * **Important**: Copy and save the token securely. You won't be able to view it again.
 
----
 
 ## 🔐 Step 2: Authenticate Docker with GHCR
 
@@ -48,7 +45,6 @@
 
    * If successful, you'll see: `Login Succeeded`.
 
----
 
 ## 🏷️ Step 3: Tag Your Docker Image
 
@@ -61,7 +57,6 @@ docker tag <PROJECT_NAME> ghcr.io/qu-cipher/<PROJECT_NAME>:latest
 * This tags your image as `ghcr.io/qu-cipher/<PROJECT_NAME>` with the `latest` tag.
 * You can replace `latest` with a specific version if desired, e.g., `v1.0.0`.
 
----
 
 ## 📤 Step 4: Push the Image to GHCR
 
@@ -96,7 +91,6 @@ By default, packages are private. To make your image public:
 
    * Click **"Save changes"**.
 
----
 
 ## 🧪 Optional: Pull and Test the Image
 
